@@ -70,17 +70,16 @@ body {
 p {
 	opacity: 1;
 	text-indent: 50px;
-
 }
 
 h1 {
-
 	font-size: 50px;
 	/*font-family: "Courgette", cursive;*/
     font-family: 'Bree Serif', serif;
 	text-align: center;
 	margin-top: auto;
-	margin-bottom: auto;
+
+/*    font-style: underline;*/
 }
 
 h2 {
@@ -90,6 +89,13 @@ h2 {
 ul {
 	padding-left: 10%;
 	padding-right: 10%;
+}
+
+h3 {
+    font-size: 30px;
+    font-width: 300%;
+    font-style: italic;
+    margin-top: -13px;
 }
 
 .button {
@@ -122,4 +128,15 @@ table {
 
 #andrew {
     color: #C5B795;
+}
+
+#real-andrew {
+    margin-bottom: -37px;
+}
+
+hr {
+    height: 2px;
+    border-color: #C5B795;
+    background-color: #C5B795;
+    width: 380px;
 }
